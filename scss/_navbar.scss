@@ -1,0 +1,16 @@
+nav {
+	background-color:$bgPrimario;
+	ul{
+		display: flex;
+		li{
+			list-style-type:none;
+			a{
+				color: green;
+				font-size:50px;
+				&:hover{
+					color: darkred;
+				}
+			}
+		}
+	}
+}

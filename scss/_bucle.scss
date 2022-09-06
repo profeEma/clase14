@@ -1,0 +1,12 @@
+@for $padding from 1 through 10 {
+	.col-#{$padding}{
+		padding: 5px * $padding;
+	}
+}
+
+@each $color in green, yellow, black {
+	.font-#{$color}{
+		color:#{$color};
+		background-color:transparent;
+	}
+}

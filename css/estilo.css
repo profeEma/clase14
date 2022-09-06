@@ -1,0 +1,129 @@
+nav {
+  background-color: yellow; }
+  nav ul {
+    display: flex; }
+    nav ul li {
+      list-style-type: none; }
+      nav ul li a {
+        color: green;
+        font-size: 50px; }
+        nav ul li a:hover {
+          color: darkred; }
+
+main {
+  background-color: lightblue; }
+  main .encabezado {
+    text-align: left; }
+    @media only screen and (max-width: 768px) {
+      main .encabezado h1 {
+        padding: 20px;
+        font-size: 50px;
+        font-family: "comic sans ms";
+        font-weight: bold; } }
+
+header {
+  width: 50%; }
+
+h1 {
+  width: 500px; }
+
+@media only screen and (min-width: 1023px) {
+  body h1 {
+    font-size: 50px; }
+  body h3 {
+    font-size: 30px; } }
+
+.col-1 {
+  padding: 5px; }
+
+.col-2 {
+  padding: 10px; }
+
+.col-3 {
+  padding: 15px; }
+
+.col-4 {
+  padding: 20px; }
+
+.col-5 {
+  padding: 25px; }
+
+.col-6 {
+  padding: 30px; }
+
+.col-7 {
+  padding: 35px; }
+
+.col-8 {
+  padding: 40px; }
+
+.col-9 {
+  padding: 45px; }
+
+.col-10 {
+  padding: 50px; }
+
+.font-green {
+  color: green;
+  background-color: transparent; }
+
+.font-yellow {
+  color: yellow;
+  background-color: transparent; }
+
+.font-black {
+  color: black;
+  background-color: transparent; }
+
+.boton, .boton-aceptar, .boton-cancelar {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px; }
+
+.boton-aceptar {
+  background-color: darkgreen;
+  color: white;
+  border: 1px solid lightgreen;
+  padding: 5px; }
+
+.boton-cancelar {
+  background-color: red;
+  color: white;
+  border: 1px solid red; }
+
+div {
+  width: 1000px;
+  height: 20px;
+  padding-top: 5px;
+  font-size: 20px; }
+
+div {
+  color: #aaccff;
+  background-color: #000;
+  font-size: 40px; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.colorPrimario {
+  color: blue; }
+
+.colorSecundario {
+  color: #eeccff; }
+
+.colorBlack {
+  color: black; }
+
+.colorWhite {
+  color: white; }
+
+div.encabezado {
+  color: #eeccff;
+  text-align: center;
+  font-size: 35px; }
